@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@255.255.255.255:1521/XEPDB1
+    username: XXXXXXXXXXX
+    password: XXXXXXXXXXX
+    driverClassName: oracle.jdbc.OracleDriver
+    transactionIsolation: TRANSACTION_READ_COMMITTED
+mybatis:
+  type-aliases-package: jp.co.sample.entity,jp.co.sample.dto
+  configuration:
+    map-underscore-to-camel-case: true

@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@255.255.255.255:1521/XEPDB1
+    username: XXXXXXXXXXX
+    password: XXXXXXXXXXX
