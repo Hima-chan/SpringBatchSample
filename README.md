@@ -3,7 +3,7 @@
 ## eclipseへのインポート
 
 ディレクトリ： SpringBatchSample直下にて、下記コマンドを実施
->./gradlew build
+>./gradlew eclipse
 
 eclipseで下記を選択
 >ファイル -> インポート -> 既存プロジェクトをワークスペースへ
